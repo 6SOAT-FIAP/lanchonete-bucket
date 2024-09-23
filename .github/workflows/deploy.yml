@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      TF_WORKING_DIR: './terraform'
+      TF_WORKING_DIR: '.'
 
     defaults:
       run:
