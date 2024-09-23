@@ -1,4 +1,4 @@
-name: Deploy Database Function
+name: Deploy Bucket Function
 
 on:
   push:
@@ -14,7 +14,7 @@ env:
 
 jobs:
   plan-prod:
-    name: 'Deploy Database Terraform'
+    name: 'Deploy Bucket Terraform'
     runs-on: ubuntu-latest
 
     env:
